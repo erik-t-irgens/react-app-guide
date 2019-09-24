@@ -13,11 +13,16 @@ class App extends Component {
     ]
   }
 
+  handleSwitchName = () => {
+    console.log('Was clicked');
+  }
+
   render() {
     return (
       <div className="App">
         <h1> Hi. I'm a react app!</h1>
         <p>This is really wokring!</p>
+        <button onClick={this.handleSwitchName}>Switch name!</button>
         <Person name={this.state.persons[0].name} age={this.state.persons[0].age}>Hobbies: Coding, writing music</Person>
       </div>
     );
