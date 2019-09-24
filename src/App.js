@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+// This component has a class that is returning (rendering) the jsx data within the return() method. It looks like HTML, but it is actually JSX that is read by our workflow. The comment below describes what is actually being rednered in this instnace.
+
 class App extends Component {
   render() {
     return (
